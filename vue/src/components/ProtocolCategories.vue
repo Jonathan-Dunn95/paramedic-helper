@@ -24,16 +24,23 @@ export default {
 <style scoped>
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .categories {
     list-style-type: none;
 }
 button {
-    background-color: white;
-    border: 2px solid white;
-    padding: 2rem;
-    font-size: 1.2rem;
+    padding: 1.8rem;
+    font-size: 1.3rem;
     font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    transition-duration: 0.1s;
+}
+button:hover {
+    background-color: white;
+    color:black;
 }
 </style>
