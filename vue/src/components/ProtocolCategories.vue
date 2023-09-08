@@ -33,14 +33,16 @@ export default {
 button {
     padding: 1.8rem;
     font-size: 1.3rem;
-    font-weight: bold;
     background-color: black;
     color: white;
     border: 2px solid white;
-    transition-duration: 0.1s;
+    transition-duration: 0.1s all;
+    cursor: pointer;
 }
 button:hover {
-    background-color: white;
-    color:black;
+  background-color: #2a2a2a;
+}
+button:active {
+    transform: scale(0.98);
 }
 </style>
