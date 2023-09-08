@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>HOME PAGE</h1>
+    <h1>Probably Start With Showing Protocol Categories</h1>
   </div>
 </template>
 
@@ -11,3 +11,7 @@ export default {
   components: {}
 }
 </script>
+
+<style scoped>
+
+</style>

@@ -2,10 +2,10 @@
     <div class="navigation-bar">
       <nav>
         <ul class="nav-list">
-          <li @click="navigateTo('parents')">Protocols</li>
-          <li @click="navigateTo('item-store')">Drug Formulary</li>
-          <li @click="navigateTo('closet')">Procedures</li>
-          <li @click="navigateTo('login')">Tools</li>
+          <li @click="navigateTo('protocols-view')">Protocols</li>
+          <li @click="navigateTo('formulary-view')">Drug Formulary</li>
+          <li @click="navigateTo('procedures-view')">Procedures</li>
+          <li @click="navigateTo('tools-view')">Tools</li>
           <!-- <li @click="navigateTo('logout')">Contact</li> -->
         </ul>
       </nav>
