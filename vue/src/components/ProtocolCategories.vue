@@ -1,23 +1,28 @@
 <template>
   <div class="container">
-      <button>Adult Cardiac</button>
-      <button>Adult Medical</button>
-      <button>Adult Obstetrical</button>
-      <button>Adult Respiratory</button>
-      <button>EMS Traige and Destination</button>
-      <button>Pediatric Cardiac</button>
-      <button>Pediatric Medical</button>
-      <button>Special Circumstances</button>
-      <button>Special Operations</button>
-      <button>Toxic and Environmental</button>
-      <button>Trauma and Burn</button>
-      <button>Universal</button>
+      <button @click="navigateTo('adult-cardiac')">Adult Cardiac</button>
+      <button @click="navigateTo('adult-medical')">Adult Medical</button>
+      <button @click="navigateTo('adult-obstetrical')">Adult Obstetrical</button>
+      <button @click="navigateTo('airway-respiratory')">Airway Respiratory</button>
+      <button @click="navigateTo('triage-destination')">EMS Traige and Destination</button>
+      <button @click="navigateTo('peds-cardiac')">Pediatric Cardiac</button>
+      <button @click="navigateTo('peds-medical')">Pediatric Medical</button>
+      <button @click="navigateTo('special-circ')">Special Circumstances</button>
+      <button @click="navigateTo('special-ops')">Special Operations</button>
+      <button @click="navigateTo('toxic-environ')">Toxic and Environmental</button>
+      <button @click="navigateTo('trauma-burn')">Trauma and Burn</button>
+      <button @click="navigateTo('universal')">Universal</button>
   </div>
 </template>
 
 <script>
 export default {
     name: "protocol-categories",
+    methods: {
+        navigateTo(view) {
+            this.$router.push({ name: view });
+        }
+    },
 }
 </script>
 

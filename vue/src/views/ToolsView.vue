@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Tools Go Here</h1>
+    <h1>Tools List</h1>
   </div>
 </template>
 

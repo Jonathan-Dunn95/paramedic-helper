@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Medications List</h1>
+    <h1>Put Formulary PDF Here</h1>
   </div>
 </template>
 
